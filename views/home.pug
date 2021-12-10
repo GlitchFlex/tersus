@@ -1,0 +1,47 @@
+extends base.pug
+block scripts
+    script('../static/index.js')
+block style
+    style
+        include ../static/style.css
+block content 
+    header.front
+        .container 
+            .intro 
+                h1.head THIS IS 
+                    h1.head FOX PRATT
+                    p.para GET YOURSELF SOAKED INTO THE DARKNESS 
+                    button.btn
+                        a(href="/contact") GET STARTED
+    section.middle 
+        .container
+            h3.header OUR SERVICES
+            .mid 
+                .card-wrapper 
+                    h3.card-header WEB DEVELOPER 
+                    .card-img 
+                        img(src="https://images.unsplash.com/photo-1493119508027-2b584f234d6c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aHRtbHxlbnwwfDJ8MHx8&ixlib=rb-1.2.1auto=format&fit=crop&w=500&q=60", alt="sorry")
+                .card-wrapper 
+                    h3.card-header APP DEVELOPMENT 
+                    .card-img 
+                        img(src="https://images.unsplash.com/photo-1548094891-c4ba474efd16?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXBwJTIwZGV2ZWxvcG1lbnR8ZW58MHwyfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60", alt="sorry")
+                .card-wrapper 
+                    h3.card-header MARKETING
+                    .card-img 
+                        img(src="https://images.unsplash.com/photo-1541560052-77ec1bbc09f7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fG1hcmtldGluZ3xlbnwwfDJ8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60", alt="")
+                .card-wrapper 
+                    h3.card-header WEB HOSTING 
+                    .card-img 
+                        img(src="https://images.unsplash.com/photo-1571786256017-aee7a0c009b6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2VydmVyc3xlbnwwfDJ8MHx8&ixlib=rb-1.2.1auto=format&fit=crop&w=500&q=60", alt="SORRY")
+                .card-wrapper 
+                    h3.card-header VIDEO EDITING
+                    .card-img 
+                        img(src="https://images.unsplash.com/photo-1621600411688-4be93cd68504?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dmlkZW8lMjBlZGl0aW5nfGVufDB8MnwwfHw%3Dixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60", alt="SORRY")
+                .card-wrapper 
+                    h3.card-header ILLUSTRATION ART 
+                    .card-img 
+                        img(src="https://images.pexels.com/photos/821652/pexels-photo-821652.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500", alt="sorry")
+block footer
+    footer
+        p.card-header Copyright (c) 2021 Tersus.services
+        p.card-header All rights reserved.

@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qahiri&family=Raleway:wght@200&display=swap');
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul{
+   display: flex;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    padding:1.4rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    font-size:1.1rem;
+
+}
+
+#navbar{
+    /* margin-top: 1rem; */
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.container {
+    max-width: 1152px;
+    margin: 0 auto;
+    padding:0 20px;
+}
+
+
+.logo img {
+    width:100px;
+}
+header.front{
+    background:url('https://images.unsplash.com/photo-1478728073286-db190d3d8ce6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODN8fGRhcmslMjBmb3Jlc3R8ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+
+
+}
+
+
+header.top{
+    background:url('https://images.unsplash.com/photo-1478728073286-db190d3d8ce6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODN8fGRhcmslMjBmb3Jlc3R8ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+}
+
+#navbar li a:hover{
+    color:rgb(124, 124, 124);
+
+
+}
+
+.intro .head{
+    font-family: bebas-neue, sans-serif;
+    font-size: 5rem;
+    line-height:4rem;
+    color:   rgb(255, 255, 255);
+    margin:20px;
+   
+}
+.para{
+    color:rgb(255, 255, 255);
+    font-size: 1rem;
+    letter-spacing:10px;
+    font-family: raleway,sans-serif;
+    text-align: center;
+    line-height:1rem;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btn{
+    padding: 1rem 1.8rem;
+    color:white;
+    background-color:transparent;
+    border:none;
+    border:white 2px solid;
+    margin: 20px;
+    cursor: pointer;
+}
+.intro{
+    height:500px;
+}
+.intro .para{
+    margin:20px;
+}
+
+
+.btn:hover{
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+}
+
+
+section{
+    background:url('https://images.unsplash.com/photo-1478728073286-db190d3d8ce6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODN8fGRhcmslMjBmb3Jlc3R8ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    /* height:500px; */
+}
+
+.header{
+   text-align: center;
+    font-family: bebas-neue, sans-serif;
+    font-size: 5rem;
+    line-height:6rem;
+    color:   rgb(255, 255, 255);
+    margin-bottom:67px;
+    padding-top:60px;
+}
+
+.card-header{
+    color:white;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    letter-spacing: 7px;
+    font-family: raleway,sans-serif;
+    text-align: center;
+    line-height: 1rem;
+    font-weight: normal;
+
+}
+
+.card-wrapper{
+    width: 300px;
+    height: 300px;
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    border-radius:15px;
+}
+
+.mid{
+    display: grid;
+    grid-template-columns:  2fr 2fr 2fr ;
+    row-gap: 65px;
+    padding-left: 32px;
+}
+
+.card-wrapper img{
+    width:200px;
+    margin-top: 18px;
+}
+
+footer{
+    background-color: black;
+    padding:40px;
+    /* line-height: 20px; */
+}
+
+.main{
+    background: url('https://images.unsplash.com/photo-1478728073286-db190d3d8ce6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODN8fGRhcmslMjBmb3Jlc3R8ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    /* height:600px; */
+    width:100%;
+}
+
+.myForm{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.myInput{
+    padding:15px 160px;
+    text-align: center;
+    font-family: 'Qahiri', sans-serif;
+    font-size: 1.3rem;
+    font-family: 'Raleway', sans-serif;
+    outline: none;
+    margin:10px 0;
+    background:transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    border:none;
+    color:white;
+    font-weight: bold;
+}
+
+.btn-1{
+    padding: 10px 80px;
+    color:white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+
+}
+
+
+.btn a{
+    text-decoration:none;
+    color:white;
+
+}

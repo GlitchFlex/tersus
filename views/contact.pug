@@ -1,0 +1,22 @@
+extends base.pug
+block scripts 
+    script('/static/index.js')
+block style 
+    style
+        include ../static/style.css
+
+block content
+    .main 
+        .container
+            h3.header CONTACT US
+            form(action='/contact',method='POST',class='myForm')
+                input(type='text',class='myInput',name='name',placeholder='Enter your name')
+                input(type='phone',class='myInput',name='phone',placeholder='Enter your ph no')
+                input(type='email',class='myInput',name='email',placeholder='Enter your email')
+                input(type='text',class='myInput',name='problem',placeholder='Your needs?')
+                input(type='submit',class='btn btn-1')
+                
+block footer
+    footer
+        p.card-header Copyright (c) 2021 Tersus.services
+        p.card-header All rights reserved.
